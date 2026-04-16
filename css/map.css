@@ -1,0 +1,51 @@
+/* Navi — Map container + custom pin styles + Leaflet overrides */
+
+#map {
+  position: absolute;
+  inset: 0;
+  z-index: var(--z-map);
+}
+
+/* Custom pin (divIcon). A circle, cream border, dark by default, gold when featured. */
+.navi-pin {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-pin-default);
+  border: 3px solid var(--color-brand-cream);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-brand-cream);
+  font-size: 14px;
+  font-weight: 600;
+  transition: transform 120ms ease-out;
+}
+
+.navi-pin.featured {
+  background-color: var(--color-pin-featured);
+  border-color: var(--color-brand-dark);
+  color: var(--color-brand-dark);
+}
+
+.navi-pin:hover {
+  transform: scale(1.1);
+}
+
+/* Leaflet overrides */
+.leaflet-container {
+  background-color: var(--color-brand-cream);
+  font-family: var(--font-sans);
+}
+
+.leaflet-control-attribution {
+  font-size: 10px;
+}
+
+.leaflet-popup-content {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  margin: var(--space-sm) var(--space-md);
+}

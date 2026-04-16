@@ -1,6 +1,6 @@
 /* Navi — Bootstrap
-   Initializes the map, loads locations.json, renders pins.
-   Depends on: map.js (initMap, renderPins) */
+   Initializes the map, loads locations.json, renders pins and the list.
+   Depends on: map.js (initMap, renderPins), card.js (renderList) */
 
 async function loadLocations() {
   try {
@@ -17,6 +17,7 @@ async function bootstrap() {
   initMap();
   const locations = await loadLocations();
   renderPins(locations);
+  renderList(locations, 'en');
   console.log(`[Navi] Rendered ${locations.length} location${locations.length === 1 ? '' : 's'}.`);
 }
 

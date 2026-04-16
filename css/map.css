@@ -1,36 +1,37 @@
 /* Navi — Map container + custom pin styles + Leaflet overrides */
 
 #map {
-  position: absolute;
-  inset: 0;
+  position: relative;
+  width: 100%;
+  flex-basis: 35vh;
+  flex-basis: 35dvh; /* dvh avoids iOS Safari URL-bar jumpiness */
+  flex-grow: 0;
+  flex-shrink: 0;
   z-index: var(--z-map);
+  border-bottom: 1px solid rgba(26, 26, 46, 0.08);
 }
 
-/* Custom pin (divIcon). A circle, cream border, dark by default, gold when featured. */
+/* Custom pin (divIcon). Small, circular. Navy by default, gold when featured. */
 .navi-pin {
-  width: 32px;
-  height: 32px;
+  width: 22px;
+  height: 22px;
   border-radius: var(--radius-full);
   background-color: var(--color-pin-default);
-  border: 3px solid var(--color-brand-cream);
-  box-shadow: var(--shadow-card);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-brand-cream);
-  font-size: 14px;
-  font-weight: 600;
+  border: 2px solid var(--color-brand-cream);
+  box-shadow: 0 1px 4px rgba(26, 26, 46, 0.3);
   transition: transform 120ms ease-out;
+  cursor: pointer;
 }
 
 .navi-pin.featured {
   background-color: var(--color-pin-featured);
   border-color: var(--color-brand-dark);
-  color: var(--color-brand-dark);
+  box-shadow: 0 2px 6px rgba(200, 164, 94, 0.5);
 }
 
-.navi-pin:hover {
-  transform: scale(1.1);
+.navi-pin:hover,
+.navi-pin.active {
+  transform: scale(1.2);
 }
 
 /* Leaflet overrides */
@@ -41,11 +42,11 @@
 
 .leaflet-control-attribution {
   font-size: 10px;
+  background-color: rgba(250, 248, 245, 0.85) !important;
 }
 
-.leaflet-popup-content {
-  font-family: var(--font-sans);
-  font-size: var(--font-size-base);
-  color: var(--color-text);
-  margin: var(--space-sm) var(--space-md);
+.leaflet-control-zoom a {
+  color: var(--color-brand-dark) !important;
+  border-color: rgba(26, 26, 46, 0.15) !important;
+  background-color: rgba(250, 248, 245, 0.95) !important;
 }

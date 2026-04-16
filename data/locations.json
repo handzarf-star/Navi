@@ -33,7 +33,7 @@
   {
     "id": "sebilj-fountain",
     "category": "landmark",
-    "featured": false,
+    "featured": true,
     "partner_discount": null,
     "coordinates": [43.859700, 18.431271],
     "google_maps_url": "https://maps.google.com/?q=43.859700,18.431271",

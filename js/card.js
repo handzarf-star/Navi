@@ -73,6 +73,21 @@ function naviBuildCard(loc, lang) {
 
 function toggleCard(cardEl, loc) {
   const wasOpen = cardEl.classList.contains('expanded');
+  const list = document.getElementById(LIST_CONTAINER_ID);
+
+  // Capture the height of any currently-expanded card BEFORE we change classes,
+  // so we can compensate for the layout shift its collapse will cause.
+  let collapsingHeightAbove = 0;
+  const currentlyOpen = document.querySelector('.loc-card.expanded');
+  if (currentlyOpen && currentlyOpen !== cardEl && list) {
+    const cards = Array.from(list.querySelectorAll('.loc-card'));
+    const openIdx = cards.indexOf(currentlyOpen);
+    const targetIdx = cards.indexOf(cardEl);
+    if (openIdx > -1 && targetIdx > -1 && openIdx < targetIdx) {
+      const exp = currentlyOpen.querySelector('.loc-expand');
+      if (exp) collapsingHeightAbove = exp.offsetHeight;
+    }
+  }
 
   // Collapse any currently expanded card
   document.querySelectorAll('.loc-card.expanded').forEach(other => {
@@ -95,12 +110,13 @@ function toggleCard(cardEl, loc) {
     panToLocation(loc.coordinates, 17);
   }
 
-  // Scroll card to top of list (wait for expand animation to start)
-  const list = document.getElementById(LIST_CONTAINER_ID);
+  // Scroll so the card TITLE lands at the top of the list panel.
+  // cardEl.offsetTop currently reflects the layout BEFORE the collapse animation
+  // has progressed, so subtract the collapsing card's expand-area height to land
+  // at the FINAL position once everything settles.
   if (list) {
-    setTimeout(() => {
-      list.scrollTo({ top: cardEl.offsetTop - 4, behavior: 'smooth' });
-    }, 40);
+    const targetTop = Math.max(0, cardEl.offsetTop - collapsingHeightAbove - 4);
+    list.scrollTo({ top: targetTop, behavior: 'smooth' });
   }
 }
 

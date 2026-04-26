@@ -1,0 +1,93 @@
+/* Navi — UI shell: top bar with brand + language switcher */
+
+:root {
+  --header-height: 48px;
+}
+
+#topbar {
+  flex: 0 0 var(--header-height);
+  height: var(--header-height);
+  background-color: var(--color-brand-dark);
+  color: var(--color-brand-cream);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--space-md);
+  z-index: var(--z-ui);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+  position: relative;
+}
+
+/* ---- Brand (left) ---- */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  color: var(--color-brand-cream);
+  user-select: none;
+}
+
+.brand-mark {
+  display: inline-flex;
+  color: var(--color-brand-gold);
+}
+
+.brand-mark svg {
+  display: block;
+  width: 14px;
+  height: 18px;
+}
+
+.brand-name {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 1;
+}
+
+/* ---- Language switcher (right) ---- */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.lang-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 5px;
+  border-radius: var(--radius-sm);
+  opacity: 0.55;
+  background-color: transparent;
+  transition: opacity 140ms ease, background-color 140ms ease, transform 120ms ease;
+  cursor: pointer;
+}
+
+.lang-btn img {
+  display: block;
+  width: 22px;
+  height: 16px;
+  border-radius: 2px;
+  object-fit: cover;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.18);
+}
+
+.lang-btn:hover {
+  opacity: 0.85;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.lang-btn:active {
+  transform: scale(0.94);
+}
+
+.lang-btn.active {
+  opacity: 1;
+  background-color: rgba(200, 164, 94, 0.18);
+}
+
+.lang-btn.active img {
+  box-shadow: 0 0 0 1.5px var(--color-brand-gold);
+}

@@ -1,7 +1,8 @@
 /* Navi — Location list + cards (the scrollable guide panel below the map) */
 
 #list {
-  flex: 1 1 auto;
+  flex: 2 1 0;        /* takes 2/3 of post-header space; map takes 1/3 */
+  min-height: 0;
   overflow-y: auto;
   overflow-x: hidden;
   background-color: var(--color-bg);

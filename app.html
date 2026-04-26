@@ -12,10 +12,28 @@
         crossorigin="anonymous">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/ui.css">
   <link rel="stylesheet" href="css/map.css">
   <link rel="stylesheet" href="css/card.css">
 </head>
 <body>
+  <header id="topbar" role="banner">
+    <div class="brand" aria-label="Navi">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 16 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 0C3.582 0 0 3.582 0 8c0 5.5 8 12 8 12s8-6.5 8-12c0-4.418-3.582-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+        </svg>
+      </span>
+      <span class="brand-name">Navi</span>
+    </div>
+    <nav class="lang-switcher" aria-label="Language">
+      <button type="button" class="lang-btn active" data-lang="en" aria-label="English"><img src="https://flagcdn.com/w40/gb.png" alt="" width="22" height="16" loading="lazy"></button>
+      <button type="button" class="lang-btn" data-lang="tr" aria-label="Türkçe"><img src="https://flagcdn.com/w40/tr.png" alt="" width="22" height="16" loading="lazy"></button>
+      <button type="button" class="lang-btn" data-lang="ar" aria-label="العربية"><img src="https://flagcdn.com/w40/sa.png" alt="" width="22" height="16" loading="lazy"></button>
+      <button type="button" class="lang-btn" data-lang="de" aria-label="Deutsch"><img src="https://flagcdn.com/w40/de.png" alt="" width="22" height="16" loading="lazy"></button>
+      <button type="button" class="lang-btn" data-lang="zh" aria-label="中文"><img src="https://flagcdn.com/w40/cn.png" alt="" width="22" height="16" loading="lazy"></button>
+    </nav>
+  </header>
   <div id="map" role="application" aria-label="Map of Sarajevo"></div>
   <section id="list" aria-label="Places to visit"></section>
 
@@ -24,6 +42,7 @@
           crossorigin="anonymous"
           defer></script>
   <script src="js/map.js" defer></script>
+  <script src="js/i18n.js" defer></script>
   <script src="js/card.js" defer></script>
   <script src="js/app.js" defer></script>
 </body>

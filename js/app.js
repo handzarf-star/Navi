@@ -14,6 +14,7 @@ async function loadLocations() {
 }
 
 async function bootstrap() {
+  initLangSwitcher();
   initMap();
   const locations = await loadLocations();
   renderPins(locations);

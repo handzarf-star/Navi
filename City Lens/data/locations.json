@@ -1,0 +1,95 @@
+[
+  {
+    "id": "bascarsija-bazaar",
+    "category": "landmark",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.859645, 18.431040],
+    "google_maps_url": "https://maps.google.com/?q=43.859645,18.431040",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Always open", "note": null },
+    "name": {
+      "en": "Baščaršija Bazaar",
+      "tr": null,
+      "ar": null,
+      "de": null,
+      "zh": null
+    },
+    "description": {
+      "en": "The oldest part of Sarajevo — a compact grid of cobblestone lanes, coppersmiths, and cafés that has changed surprisingly little since the 1460s. Start here on your first morning: order a Bosnian coffee, sit, and let the neighborhood move around you. Everything worth seeing in the old town is within five minutes of this spot.",
+      "tr": null,
+      "ar": null,
+      "de": null,
+      "zh": null
+    },
+    "insider_tip": {
+      "en": "Come once in the morning for the quiet, then again after sunset when the lanterns come on — it feels like a completely different place.",
+      "tr": null,
+      "ar": null,
+      "de": null,
+      "zh": null
+    }
+  },
+  {
+    "id": "sebilj-fountain",
+    "category": "landmark",
+    "featured": true,
+    "partner_discount": null,
+    "coordinates": [43.859700, 18.431271],
+    "google_maps_url": "https://maps.google.com/?q=43.859700,18.431271",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Always open", "note": null },
+    "name": {
+      "en": "Sebilj Fountain",
+      "tr": null,
+      "ar": null,
+      "de": null,
+      "zh": null
+    },
+    "description": {
+      "en": "The wooden fountain in the middle of Baščaršija, surrounded by benches and pigeons. It was built in 1753, rebuilt in 1891, and has been the symbol of Sarajevo ever since. Local legend says anyone who drinks the water here will come back to the city.",
+      "tr": null,
+      "ar": null,
+      "de": null,
+      "zh": null
+    },
+    "insider_tip": {
+      "en": "Buy a small bag of corn from the stalls nearby to feed the pigeons — it is the classic photo every family takes home.",
+      "tr": null,
+      "ar": null,
+      "de": null,
+      "zh": null
+    }
+  },
+  {
+    "id": "gazi-husrev-beg-mosque",
+    "category": "religious",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.859151, 18.429286],
+    "google_maps_url": "https://maps.google.com/?q=43.859151,18.429286",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Outside prayer times", "note": "Non-Muslim visitors welcome outside prayer times" },
+    "name": {
+      "en": "Gazi Husrev-beg Mosque",
+      "tr": null,
+      "ar": null,
+      "de": null,
+      "zh": null
+    },
+    "description": {
+      "en": "Bosnia's most important mosque, completed in 1531 by the Ottoman governor who gave it his name. The courtyard — a fountain, a sundial, rows of worn stone — is one of the calmest places in the old town. Visitors of any faith are welcome outside prayer times: shoes off, shoulders and knees covered.",
+      "tr": null,
+      "ar": null,
+      "de": null,
+      "zh": null
+    },
+    "insider_tip": {
+      "en": "Go right after morning prayer ends, around 8am in summer — the light through the dome is at its best and you will likely have the courtyard to yourself.",
+      "tr": null,
+      "ar": null,
+      "de": null,
+      "zh": null
+    }
+  }
+]

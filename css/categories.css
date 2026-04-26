@@ -1,0 +1,125 @@
+/* Navi — Category filter bar
+   Sits between the map and the list. Horizontally scrolling pill bar.
+   Two visually distinct accents: gold for Recommended, sage for Local Secrets. */
+
+#categories {
+  flex: 0 0 auto;             /* fixed natural height; map/list keep 1:2 split below */
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 10px var(--space-md);
+  background-color: var(--color-bg);
+  border-bottom: 1px solid rgba(26, 26, 46, 0.08);
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;        /* Firefox */
+  z-index: var(--z-ui);
+  position: relative;
+}
+
+#categories::-webkit-scrollbar { display: none; }
+
+/* Soft fade on the right edge so the user senses there's more to scroll */
+#categories::after {
+  content: "";
+  position: absolute;
+  top: 0; right: 0; bottom: 0;
+  width: 24px;
+  pointer-events: none;
+  background: linear-gradient(to left, var(--color-bg), rgba(250, 248, 245, 0));
+}
+
+.cat-btn {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: var(--radius-full);
+  background-color: rgba(26, 26, 46, 0.04);
+  color: var(--color-brand-dark);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+  transition: background-color 140ms ease, color 140ms ease,
+              box-shadow 140ms ease, transform 100ms ease;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.cat-btn:hover  { background-color: rgba(26, 26, 46, 0.08); }
+.cat-btn:active { transform: scale(0.96); }
+
+/* Standard active (navy) — used for All, See, Eat, Coffee, Nightlife, Sleep */
+.cat-btn.active {
+  background-color: var(--color-brand-dark);
+  color: var(--color-brand-cream);
+  box-shadow: 0 2px 6px rgba(26, 26, 46, 0.18);
+}
+
+/* ---- Recommended (gold) ---- */
+.cat-btn.cat-recommended {
+  border-color: var(--color-brand-gold);
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+.cat-btn.cat-recommended .cat-icon {
+  color: var(--color-brand-gold);
+}
+
+.cat-btn.cat-recommended:hover {
+  background-color: rgba(200, 164, 94, 0.10);
+}
+
+.cat-btn.cat-recommended.active {
+  background-color: var(--color-brand-gold);
+  color: var(--color-brand-dark);
+  border-color: var(--color-brand-gold);
+  box-shadow: 0 2px 6px rgba(200, 164, 94, 0.45);
+}
+
+.cat-btn.cat-recommended.active .cat-icon {
+  color: var(--color-brand-dark);
+}
+
+/* ---- Local Secrets (sage) ---- */
+.cat-btn.cat-local {
+  border-color: var(--color-sage);
+  color: var(--color-sage);
+  background-color: transparent;
+}
+
+.cat-btn.cat-local:hover {
+  background-color: var(--color-sage-soft);
+}
+
+.cat-btn.cat-local.active {
+  background-color: var(--color-sage);
+  color: #ffffff;
+  border-color: var(--color-sage);
+  box-shadow: 0 2px 6px rgba(125, 149, 122, 0.45);
+}
+
+.cat-icon {
+  font-size: 12px;
+  line-height: 1;
+}
+
+/* Empty state shown when current filter has zero matching cards */
+.cat-empty {
+  padding: var(--space-xl) var(--space-md);
+  text-align: center;
+  color: rgba(26, 26, 46, 0.55);
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+}
+
+.cat-empty strong {
+  display: block;
+  color: var(--color-text);
+  font-size: var(--font-size-base);
+  margin-bottom: 4px;
+}

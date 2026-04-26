@@ -8,6 +8,10 @@
   --color-brand-gold:  #c8a45e;
   --color-brand-cream: #faf8f5;
 
+  /* ---- Community accent (Local Secrets) ---- */
+  --color-sage:        #7d957a;
+  --color-sage-soft:   #e8efe5;
+
   /* ---- Semantic colors ---- */
   --color-bg:           var(--color-brand-cream);
   --color-text:         var(--color-brand-dark);

@@ -28,17 +28,41 @@ function naviPickString(obj, lang) {
   return obj[lang] || obj.en || '';
 }
 
+function naviEscape(str) {
+  if (str == null) return '';
+  return String(str)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
 function naviBuildCard(loc, lang) {
   const name = naviPickString(loc.name, lang) || loc.id;
   const description = naviPickString(loc.description, lang);
   const tip = naviPickString(loc.insider_tip, lang);
   const hours = naviPickString(loc.hours, lang);
   const featured = loc.featured === true;
+  const isLocalSecret = loc.local_secret === true || !!loc.submitted_by;
   const initials = naviGetInitials(name);
 
   const article = document.createElement('article');
-  article.className = 'loc-card' + (featured ? ' featured' : '');
+  article.className = 'loc-card'
+    + (featured ? ' featured' : '')
+    + (isLocalSecret ? ' local-secret' : '');
   article.dataset.id = loc.id;
+
+  // A card can be both featured and a local secret — show both badges.
+  let badgesHtml = '';
+  if (featured)      badgesHtml += '<span class="loc-badge">\u2605 Navi Recommends</span>';
+  if (isLocalSecret) badgesHtml += '<span class="loc-badge local-badge">Local Secret</span>';
+
+  // "Suggested by Amina, Vratnik" attribution, only when submitted_by is present.
+  let attributionHtml = '';
+  if (loc.submitted_by && (loc.submitted_by.name || loc.submitted_by.neighborhood)) {
+    const parts = [];
+    if (loc.submitted_by.name)         parts.push(naviEscape(loc.submitted_by.name));
+    if (loc.submitted_by.neighborhood) parts.push(naviEscape(loc.submitted_by.neighborhood));
+    attributionHtml = `<p class="loc-attribution">Suggested by ${parts.join(', ')}</p>`;
+  }
 
   article.innerHTML = `
     <button class="loc-row" type="button" aria-expanded="false" aria-controls="expand-${loc.id}">
@@ -46,12 +70,13 @@ function naviBuildCard(loc, lang) {
       <div class="loc-body">
         <h3 class="loc-name">
           <span>${name}</span>
-          ${featured ? '<span class="loc-badge">\u2605 Navi Recommends</span>' : ''}
+          ${badgesHtml}
         </h3>
         <p class="loc-preview">${naviTruncate(description, 18)}</p>
       </div>
     </button>
     <div class="loc-expand" id="expand-${loc.id}" aria-hidden="true">
+      ${attributionHtml}
       <p class="loc-description">${description}</p>
       ${tip ? `<p class="loc-tip"><span class="loc-tip-label">Insider tip</span>${tip}</p>` : ''}
       ${hours ? `<p class="loc-meta"><span class="loc-meta-icon">\u29D7</span> ${hours}</p>` : ''}
@@ -69,6 +94,35 @@ function naviBuildCard(loc, lang) {
   });
 
   return article;
+}
+
+/* Permanent CTA appended to every list view.
+   Replace NAVI_SUGGEST_URL with your real Google Form / Tally form link. */
+const NAVI_SUGGEST_URL = 'https://forms.gle/REPLACE-WITH-YOUR-FORM-ID';
+
+function naviBuildSuggestCard() {
+  const a = document.createElement('a');
+  a.className = 'loc-suggest-card';
+  a.href = NAVI_SUGGEST_URL;
+  a.target = '_blank';
+  a.rel = 'noopener noreferrer';
+  a.setAttribute('aria-label', 'Suggest a hidden gem');
+  a.innerHTML = `
+    <div class="loc-suggest-icon" aria-hidden="true">+</div>
+    <h3 class="loc-suggest-title">Know a place tourists should know?</h3>
+    <p class="loc-suggest-sub">Suggest a hidden gem &mdash; reviewed and added to <strong>Local Secrets</strong>.</p>
+  `;
+  return a;
+}
+
+function naviBuildEmptyState() {
+  const div = document.createElement('div');
+  div.className = 'cat-empty';
+  div.innerHTML = `
+    <strong>No places here yet.</strong>
+    Try another category, or browse "All".
+  `;
+  return div;
 }
 
 /* Scroll #list so cardEl's TOP lines up with the top of the visible list panel.
@@ -152,7 +206,15 @@ function renderList(locations, lang) {
   naviLocations = locations || [];
   const activeLang = lang || 'en';
   container.innerHTML = '';
-  naviLocations.forEach(loc => {
-    container.appendChild(naviBuildCard(loc, activeLang));
-  });
+
+  if (naviLocations.length === 0) {
+    container.appendChild(naviBuildEmptyState());
+  } else {
+    naviLocations.forEach(loc => {
+      container.appendChild(naviBuildCard(loc, activeLang));
+    });
+  }
+
+  // Always last: the "suggest a hidden gem" CTA.
+  container.appendChild(naviBuildSuggestCard());
 }

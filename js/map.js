@@ -56,3 +56,16 @@ function panToLocation(coords, zoom) {
   const targetZoom = typeof zoom === 'number' ? zoom : 17;
   naviMap.flyTo(coords, targetZoom, { duration: 0.8 });
 }
+
+/* Show only the markers whose ids are in `visibleIds` (a Set of strings).
+   Used by the category filter — we already created every marker on first load,
+   we just toggle layer membership rather than recreating geometry. */
+function setPinsVisible(visibleIds) {
+  if (!naviMap) return;
+  Object.entries(naviMarkers).forEach(([id, marker]) => {
+    const shouldShow = visibleIds.has(id);
+    const isOnMap = naviMap.hasLayer(marker);
+    if (shouldShow && !isOnMap) marker.addTo(naviMap);
+    else if (!shouldShow && isOnMap) naviMap.removeLayer(marker);
+  });
+}

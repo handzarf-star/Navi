@@ -1,9 +1,11 @@
 [
   {
     "id": "bascarsija-bazaar",
-    "category": "landmark",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.859645, 18.431040],
     "google_maps_url": "https://maps.google.com/?q=43.859645,18.431040",
     "photo": "assets/images/placeholder.webp",
@@ -23,9 +25,11 @@
   },
   {
     "id": "sebilj-fountain",
-    "category": "landmark",
+    "category": "see",
     "featured": true,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.859700, 18.431271],
     "google_maps_url": "https://maps.google.com/?q=43.859700,18.431271",
     "photo": "assets/images/placeholder.webp",
@@ -45,9 +49,11 @@
   },
   {
     "id": "gazi-husrev-beg-mosque",
-    "category": "religious",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.859151, 18.429286],
     "google_maps_url": "https://maps.google.com/?q=43.859151,18.429286",
     "photo": "assets/images/placeholder.webp",
@@ -67,9 +73,11 @@
   },
   {
     "id": "emperors-mosque",
-    "category": "religious",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.857426, 18.430696],
     "google_maps_url": "https://maps.google.com/?q=43.857426,18.430696",
     "photo": "assets/images/placeholder.webp",
@@ -89,9 +97,11 @@
   },
   {
     "id": "old-orthodox-church",
-    "category": "religious",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.860308, 18.429958],
     "google_maps_url": "https://maps.google.com/?q=43.860308,18.429958",
     "photo": "assets/images/placeholder.webp",
@@ -111,9 +121,11 @@
   },
   {
     "id": "latin-bridge",
-    "category": "landmark",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.857606, 18.428958],
     "google_maps_url": "https://maps.google.com/?q=43.857606,18.428958",
     "photo": "assets/images/placeholder.webp",
@@ -133,9 +145,11 @@
   },
   {
     "id": "vijecnica-city-hall",
-    "category": "landmark",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.859193, 18.433578],
     "google_maps_url": "https://maps.google.com/?q=43.859193,18.433578",
     "photo": "assets/images/placeholder.webp",
@@ -155,9 +169,11 @@
   },
   {
     "id": "house-of-spite",
-    "category": "landmark",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.858510, 18.434308],
     "google_maps_url": "https://maps.google.com/?q=43.858510,18.434308",
     "photo": "assets/images/placeholder.webp",
@@ -177,9 +193,11 @@
   },
   {
     "id": "war-crimes-museum",
-    "category": "museum",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.859052, 18.426387],
     "google_maps_url": "https://maps.google.com/?q=43.859052,18.426387",
     "photo": "assets/images/placeholder.webp",
@@ -199,9 +217,11 @@
   },
   {
     "id": "sacred-heart-cathedral",
-    "category": "religious",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.859372, 18.425561],
     "google_maps_url": "https://maps.google.com/?q=43.859372,18.425561",
     "photo": "assets/images/placeholder.webp",
@@ -221,9 +241,11 @@
   },
   {
     "id": "eternal-flame",
-    "category": "landmark",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.858816, 18.421864],
     "google_maps_url": "https://maps.google.com/?q=43.858816,18.421864",
     "photo": "assets/images/placeholder.webp",
@@ -243,9 +265,11 @@
   },
   {
     "id": "sarajevo-brewery",
-    "category": "museum",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.856160, 18.432541],
     "google_maps_url": "https://maps.google.com/?q=43.856160,18.432541",
     "photo": "assets/images/placeholder.webp",
@@ -265,9 +289,11 @@
   },
   {
     "id": "ali-pasha-mosque",
-    "category": "religious",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.857964, 18.412782],
     "google_maps_url": "https://maps.google.com/?q=43.857964,18.412782",
     "photo": "assets/images/placeholder.webp",
@@ -287,9 +313,11 @@
   },
   {
     "id": "national-museum",
-    "category": "museum",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.855043, 18.402622],
     "google_maps_url": "https://maps.google.com/?q=43.855043,18.402622",
     "photo": "assets/images/placeholder.webp",
@@ -309,9 +337,11 @@
   },
   {
     "id": "history-museum",
-    "category": "museum",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.855176, 18.401079],
     "google_maps_url": "https://maps.google.com/?q=43.855176,18.401079",
     "photo": "assets/images/placeholder.webp",
@@ -331,9 +361,11 @@
   },
   {
     "id": "avaz-tower",
-    "category": "landmark",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.860745, 18.402102],
     "google_maps_url": "https://maps.google.com/?q=43.860745,18.402102",
     "photo": "assets/images/placeholder.webp",
@@ -353,9 +385,11 @@
   },
   {
     "id": "yellow-fortress",
-    "category": "viewpoint",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.861441, 18.437648],
     "google_maps_url": "https://maps.google.com/?q=43.861441,18.437648",
     "photo": "assets/images/placeholder.webp",
@@ -375,9 +409,11 @@
   },
   {
     "id": "white-fortress",
-    "category": "viewpoint",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.859481, 18.444560],
     "google_maps_url": "https://maps.google.com/?q=43.859481,18.444560",
     "photo": "assets/images/placeholder.webp",
@@ -397,9 +433,11 @@
   },
   {
     "id": "kovaci-cemetery",
-    "category": "memorial",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.861264, 18.434268],
     "google_maps_url": "https://maps.google.com/?q=43.861264,18.434268",
     "photo": "assets/images/placeholder.webp",
@@ -419,9 +457,11 @@
   },
   {
     "id": "alifakovac-cemetery",
-    "category": "memorial",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.857780, 18.437442],
     "google_maps_url": "https://maps.google.com/?q=43.857780,18.437442",
     "photo": "assets/images/placeholder.webp",
@@ -441,9 +481,11 @@
   },
   {
     "id": "trebevic-cable-car",
-    "category": "experience",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.855562, 18.434971],
     "google_maps_url": "https://maps.google.com/?q=43.855562,18.434971",
     "photo": "assets/images/placeholder.webp",
@@ -463,9 +505,11 @@
   },
   {
     "id": "bobsled-track",
-    "category": "landmark",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.839181, 18.443367],
     "google_maps_url": "https://maps.google.com/?q=43.839181,18.443367",
     "photo": "assets/images/placeholder.webp",
@@ -485,9 +529,11 @@
   },
   {
     "id": "trebevic-viewpoint",
-    "category": "viewpoint",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.841764, 18.453382],
     "google_maps_url": "https://maps.google.com/?q=43.841764,18.453382",
     "photo": "assets/images/placeholder.webp",
@@ -507,9 +553,11 @@
   },
   {
     "id": "tunnel-of-hope",
-    "category": "museum",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.819832, 18.337304],
     "google_maps_url": "https://maps.google.com/?q=43.819832,18.337304",
     "photo": "assets/images/placeholder.webp",
@@ -529,9 +577,11 @@
   },
   {
     "id": "vrelo-bosne",
-    "category": "nature",
+    "category": "see",
     "featured": false,
     "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
     "coordinates": [43.818791, 18.268000],
     "google_maps_url": "https://maps.google.com/?q=43.818791,18.268000",
     "photo": "assets/images/placeholder.webp",
@@ -546,6 +596,966 @@
     },
     "insider_tip": {
       "en": "Go on a weekday morning — weekends are packed with local families, which is charming but not peaceful.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "cevabdzinica-zeljo",
+    "category": "eat",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8586636, 18.4299840],
+    "google_maps_url": "https://maps.google.com/?q=43.8586636,18.4299840",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily, 8 AM – 11 PM", "note": null },
+    "name": {
+      "en": "Ćevabdžinica Zeljo",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "One of Sarajevo's most-visited ćevabdžinice, operating on Kundurdžiluk street in Baščaršija for decades. The ćevapi are a lamb-beef blend grilled over charcoal and served in warm somun bread with raw onion and kajmak on request. No alcohol served; cash preferred.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "There are two Zeljo branches within 200 m of each other; the one at Kundurdžiluk 19 is the older, smaller original. Same recipe at both, but the atmosphere is more local at number 19.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "dveri",
+    "category": "eat",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8594995, 18.4305096],
+    "google_maps_url": "https://maps.google.com/?q=43.8594995,18.4305096",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily, 9 AM – 11 PM", "note": "Cash only. Reservations essential — book 2–3 days ahead for evenings." },
+    "name": {
+      "en": "Dveri",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Small family-run restaurant on a cobblestone lane in Baščaršija, seating roughly 30 people inside a room lined with climbing plants and antique implements. The pogača (home-baked flatbread with a sesame crust) arrives first and is the dish most people talk about afterward. The menu includes vegetarian options including aubergine dishes and vegetable soup.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The owner does not accept walk-ins once the room is full and does not keep a waitlist. If you arrive without a reservation and it's full, ask politely — early cancellations occasionally open a spot within the hour.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "nanina-kuhinja",
+    "category": "eat",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8586920, 18.4303640],
+    "google_maps_url": "https://maps.google.com/?q=43.8586920,18.4303640",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily, 9 AM – 11 PM", "note": null },
+    "name": {
+      "en": "Nanina Kuhinja",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Aščinica-style restaurant at Kundurdžiluk 35 with copper-topped tables and a menu of traditional Bosnian stews, dolma (stuffed vegetables), and soups. Vegetarian options are clearly marked on the menu, and English is spoken. Outdoor seating faces the pedestrian street.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The veal stew with rice and the klepe (Bosnian dumplings) are the two dishes that come back in almost every review. Order both to share rather than one large main.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "buregdzinica-bosna",
+    "category": "eat",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8590423, 18.4316187],
+    "google_maps_url": "https://maps.google.com/?q=43.8590423,18.4316187",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily, 8 AM – 11 PM", "note": "Certain fillings sell out before closing, especially on weekends." },
+    "name": {
+      "en": "Buregdžinica Bosna",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "One of the most-visited burekdžinice in Baščaršija, serving meat, cheese, and potato pita baked in rotating round sač pans visible from the street. Traditional Bosnian 'burek' refers strictly to the beef-and-onion variety; cheese or potato versions are correctly called pita. Locally made yogurt is the standard side.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Arrive before 10 AM for the full selection. The meat burek sells out first; if only pita is left, it is still worth stopping for.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "brunch-sa",
+    "category": "eat",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8596980, 18.4281264],
+    "google_maps_url": "https://maps.google.com/?q=43.8596980,18.4281264",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Mon 8 AM – 4 PM; Tue – Sat 7 AM – 4 PM; Sun 9 AM – 4 PM", "note": "No dinner service. Kitchen closes at 4 PM sharp." },
+    "name": {
+      "en": "Brunch SA",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Modern brunch café on Gazi Husrev-begova in the old town with a black-and-white interior and a menu centered on poached eggs, Eggs Benedict, avocado toast, and smoothies. Specialty coffees are a genuine focus, including their signature caramel espresso drink. All ingredients are sourced fresh daily.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Go Tuesday to Friday. On Saturdays and Sundays the queue for a table forms by 10 AM; arriving before 9 AM is the only reliable way to walk straight in.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "falafel-restaurant",
+    "category": "eat",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8595237, 18.4297861],
+    "google_maps_url": "https://maps.google.com/?q=43.8595237,18.4297861",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Mon – Sat, 9 AM – 5 PM; closed Sunday", "note": "May sell out before listed closing time on busy summer days." },
+    "name": {
+      "en": "Falafel Restaurant",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Small fully vegetarian and vegan restaurant hidden in Đulagina Čikma alley, a short walk off the main Baščaršija streets. Falafel is fried to order, served with hummus and fresh vegetables; takeaway-style, with a few indoor seats. Fresh lemonade (unsweetened, just lemon and water) is a house specialty.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The alley entrance is unmarked from the main street — look for the narrow arch between Barhana and the covered passage near Pigeon Square. Easy to walk past twice.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "singing-nettle",
+    "category": "eat",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8601877, 18.4247435],
+    "google_maps_url": "https://maps.google.com/?q=43.8601877,18.4247435",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Mon – Sat, 2 PM – 10:30 PM; closed Sunday", "note": "Reservations required for Friday and Saturday evenings." },
+    "name": {
+      "en": "The Singing Nettle",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Small family-run restaurant (one cook, one server) at Petrakijina 1, near Ferhadija, specializing in Bosnian recipes that use foraged mountain herbs. Nettle appears in the bread, soup, pasta, and a dessert. The menu marks vegan and vegetarian dishes clearly. Lamb and beef dishes share menu space with multiple plant-based options.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Book by phone; the restaurant is tiny and often fully committed two evenings ahead. If you cannot get a table, ask to be added to a same-day cancellation list.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "tavola",
+    "category": "eat",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8586928, 18.4200237],
+    "google_maps_url": "https://maps.google.com/?q=43.8586928,18.4200237",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Mon – Sat, noon – 11 PM; closed Sunday", "note": "Service can be slow during busy evenings — reviewed consistently." },
+    "name": {
+      "en": "Restoran Tavola",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Italian restaurant on Maršala Tita in the Centar district, with homemade pasta prepared according to the owner's family recipes. Local Herzegovinian wines are on the list alongside Italian selections. A kuver (cover charge for bread, parmesan, and condiments) is added to the bill — standard practice here.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Order the bruschetta as a starter immediately after sitting down — it arrives quickly while the pasta is being made and prevents the wait from feeling long.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "nacionalni-restoran-visegradska",
+    "category": "eat",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8585888, 18.4308904],
+    "google_maps_url": "https://maps.google.com/?q=43.8585888,18.4308904",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Tue – Fri 8 AM – 11 PM; Sat 8 AM – midnight; Sun 9 AM – 11 PM; closed Monday", "note": null },
+    "name": {
+      "en": "Nacionalni Restoran Višegrad",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Traditional full-service Bosnian restaurant in Baščaršija at Halaći 14, best known for its cold mezze plate of cured meats, hard cheese, and house-made rakija. The owner occasionally serves complimentary rakija shots to the table without being asked. Beer is available on tap.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Order the cold plate for two and a draft Sarajevsko as a starting point — together they cost roughly the same as one main course elsewhere and give a proper cross-section of the kitchen.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "barhana",
+    "category": "eat",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8596885, 18.4298211],
+    "google_maps_url": "https://maps.google.com/?q=43.8596885,18.4298211",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily, 10 AM – 11:30 PM", "note": "Cash only." },
+    "name": {
+      "en": "Barhana",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Restaurant in a stone-walled courtyard off Đulagina Čikma alley, with a menu mixing Bosnian stews and grilled meat with pizza and pasta. The rakija list runs to over a dozen varieties including myrtle, pine, cherry, and golden apricot — one of the broader selections in the old town. Dinner here can naturally continue into drinks.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The full rakija list is not always printed on the standard menu — ask the server to show it separately. The myrtle version is the one least likely to be available elsewhere.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "park-princeva",
+    "category": "eat",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8536127, 18.4363417],
+    "google_maps_url": "https://maps.google.com/?q=43.8536127,18.4363417",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily, 9 AM – 11 PM", "note": null },
+    "name": {
+      "en": "Park Princeva",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Hillside restaurant above Baščaršija at Iza Hrida 7, reached by a short uphill drive or 20-minute walk from the old town. The panoramic view over the Miljacka valley and red-tile rooftops is the primary draw. Full table service with waiter in formal attire; menu covers traditional Bosnian dishes and international options. Food quality reviews are inconsistent.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Come for coffee and dessert rather than a full meal if you want the view without the risk — the view is guaranteed, the kitchen less so. The upper terrace has a better sightline than the lower one.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "vucko-gastro-pub",
+    "category": "eat",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8585396, 18.4175644],
+    "google_maps_url": "https://maps.google.com/?q=43.8585396,18.4175644",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Mon – Fri 8 AM – midnight; Sat 9 AM – midnight; Sun 11 AM – midnight", "note": null },
+    "name": {
+      "en": "Gastro Pub Vučko",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Two-floor pub in Centar at Radićeva 10, decorated throughout with 1984 Sarajevo Winter Olympics memorabilia. One of the broadest beer selections in the city — both draught and bottled, local and regional. Food menu runs to pub staples: platters, burritos, and salads, with portions sized for sharing.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The ground floor fills up quickly on match nights with the TV sound up. The upstairs room is quieter and has better table availability on weekends.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "cafe-divan",
+    "category": "coffee",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8596044, 18.4299741],
+    "google_maps_url": "https://maps.google.com/?q=43.8596044,18.4299741",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily, 7 AM – 11 PM", "note": "Cash only." },
+    "name": {
+      "en": "Caffe Divan",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Traditional coffee house inside the courtyard of Morića Han, Sarajevo's last surviving 16th-century Ottoman caravanserai at Sarači 77. Bosnian coffee is served džezva-and-fildžan style under the plane trees, accompanied by lokum (Turkish delight) at 3.50 KM. Almost entirely a local crowd despite its central location.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Ask the server to explain the ritual before pouring — džezva is placed on the table first, then you pour yourself when the grounds have settled. Stirring is not done. Half the value of this stop is the ritual itself.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "miris-dunja-bascarsija",
+    "category": "coffee",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8591187, 18.4295976],
+    "google_maps_url": "https://maps.google.com/?q=43.8591187,18.4295976",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily, 9 AM – 11:30 PM", "note": "Cash only; euros accepted." },
+    "name": {
+      "en": "Miris Dunja Baščaršija",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Traditional café on Čizmedžiluk, a narrow pedestrian lane one block from the Sebilj. Bosnian coffee is served in copper džezva and fildžan; outside tables sit directly on the cobblestones with gas heaters in cold months. A resident cat is frequently in attendance.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The inside fills up fast on cool evenings; the outside tables with heaters have the better street-watching angle. The lane itself sees less tourist foot traffic than Baščaršija's main arteries.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "teahouse-dzirlo",
+    "category": "coffee",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8602056, 18.4321732],
+    "google_maps_url": "https://maps.google.com/?q=43.8602056,18.4321732",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily, 8:30 AM – 11 PM", "note": "Cash only." },
+    "name": {
+      "en": "Teahouse Džirlo",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "One-room teahouse at Kovači 16, run by the owner Džirlo, who has operated it for years after living abroad. The interior is lamp-lit, colourful, and lined with jars and bottles of 50+ teas. Bosnian coffee is served alongside the tea menu. The salep — a hot orchid-milk drink from Ottoman tradition — is widely considered the best in Sarajevo.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Salep sells out on busy evenings. Order it the moment you sit down, not at the end of your visit.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "rahatlook",
+    "category": "coffee",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8595458, 18.4278419],
+    "google_maps_url": "https://maps.google.com/?q=43.8595458,18.4278419",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Mon – Sat, 9 AM – 5 PM; closed Sunday", "note": null },
+    "name": {
+      "en": "Rahatlook",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Small family bakery–café one lane behind Ferhadija, run by a mother-and-son team. All pastries and cakes are made on the premises using butter and real cream — no margarine or artificial whipped cream, which distinguishes it from most Sarajevo bakeries. Bosnian coffee served alongside.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The poppy-seed apple pastry is made in a small daily batch and is usually gone by noon. The chocolate version is the backup and equally good.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "kamarija",
+    "category": "coffee",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8609573, 18.4385882],
+    "google_maps_url": "https://maps.google.com/?q=43.8609573,18.4385882",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily, 8 AM – midnight", "note": "Cash only." },
+    "name": {
+      "en": "Kamarija",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Multi-level wooden café built into the hillside near the Yellow Bastion, at Pod bedemom, with stepped terraces overlooking Baščaršija and the Miljacka valley below. Bosnian coffee, herbal and fruit teas (brewed from whole plants, not bags), and homemade cakes are the menu. Access is a 10-minute walk up from the Sebilj via a footpath past Ottoman-era walls.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The middle terrace has the widest view angle; the top terrace is more sheltered but narrower. Arrive before sunset — the city light on the rooftops is at its best in the last hour before dark.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "ministry-of-cejf",
+    "category": "coffee",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8603744, 18.4322711],
+    "google_maps_url": "https://maps.google.com/?q=43.8603744,18.4322711",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily, 7 AM – 11 PM", "note": null },
+    "name": {
+      "en": "Ministry of Ćejf",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Bosnia's first third-wave specialty coffee café and roastery, at Kovači 26, on the cobblestone staircase that descends from the upper old town toward the Sebilj. Roasts its own single-origin beans on site; serves flat whites, V60 pour-overs, and traditional Bosnian coffee side by side. Small wooden deck at the front overlooks the staircase and rooftops.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Sit outside even in a light drizzle — the views down Kovači toward Baščaršija are the point. The interior fills quickly on summer mornings.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "franz-und-sophie",
+    "category": "coffee",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8603852, 18.4242126],
+    "google_maps_url": "https://maps.google.com/?q=43.8603852,18.4242126",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Mon – Fri 9:30 AM – 6:30 PM; Sat 9:30 AM – 5:30 PM; closed Sunday", "note": null },
+    "name": {
+      "en": "Franz & Sophie",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Specialty tea shop and café at Petrakijina 6 with more than 400 loose-leaf varieties and a menu that also runs to matcha lattes, quality espresso, and iced drinks. The owner is a certified tea sommelier and is usually present to guide selection. Loose-leaf teas can be purchased by the gram to take home.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Ask for the pistachio tea — it does not appear on the main display board but is consistently recommended by regulars and the owner alike.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "cafe-tito",
+    "category": "coffee",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8547028, 18.4007940],
+    "google_maps_url": "https://maps.google.com/?q=43.8547028,18.4007940",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily, 7 AM – midnight", "note": null },
+    "name": {
+      "en": "Café Tito",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Yugoslav-era themed café next to the History Museum on Zmaja od Bosne, with every wall covered in original Tito photographs, newspapers, and propaganda posters. The garden courtyard contains two decommissioned military tanks and serves as a children's play area by day and a drinking terrace by evening. Coffee, beer, and spirits are served.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Walk through the indoor exhibition rooms before ordering — the memorabilia is extensive and genuine. Drinks are reasonably priced given the location beside a museum-grade collection.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "kawa",
+    "category": "coffee",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8601913, 18.4229986],
+    "google_maps_url": "https://maps.google.com/?q=43.8601913,18.4229986",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Mon – Sat 8 AM – 11 PM; Sun 10 AM – 4 PM", "note": null },
+    "name": {
+      "en": "Kawa",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Specialty espresso bar at Dženetića Čikma 16, accessed via a staircase off a lane near the old town. Serves single-origin V60 pour-overs and espresso-based drinks made from beans chosen for distinct flavour profiles. Reviews from specialty coffee drinkers consistently cite it as the strongest espresso offering in the city. Card accepted.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Order the V60 pour-over — it is what regulars who work in the coffee industry come here for, and it costs under 4 BAM. Ask which single origin is running that week before deciding.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "kasahana",
+    "category": "coffee",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": null,
+    "google_maps_url": null,
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Hours vary — check before visiting", "note": "Website: kashahana.com" },
+    "name": {
+      "en": "Kašahana",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Modern café near the old town edge known for a specialty coffee menu with multiple milk alternatives (oat, almond, soy) — uncommon in Sarajevo. Also serves a short brunch-style food menu. Mentioned consistently by locals as the go-to specialty café for those who want non-dairy options alongside quality espresso.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Coordinates could not be confirmed for this entry — use the website (kashahana.com) or search Google Maps to verify the current address before going.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "kino-bosna",
+    "category": "nightlife",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8602199, 18.4114884],
+    "google_maps_url": "https://maps.google.com/?q=43.8602199,18.4114884",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Mon and Thu, 6 PM – midnight; closed other days", "note": "Entry fee 5 KM at the door; bring cash." },
+    "name": {
+      "en": "Kino Bosna",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Former Yugoslavian cinema at Alipaišina 19 converted into a tavern open only on Mondays and Thursdays. Live sevdah music and traditional Bosnian folk songs are performed from around 8 PM; the crowd sings and dances along. Beer and spirits are served. Smoking is permitted inside. Alcohol is served.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Monday nights are the busiest and most spontaneous. Book a table from 8 or 8:30 PM — the venue fills up and standing room becomes the only option after 9 PM.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "jazzbina",
+    "category": "nightlife",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8584696, 18.4184775],
+    "google_maps_url": "https://maps.google.com/?q=43.8584696,18.4184775",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Mon, Wed, Thu, Fri 10 AM – 2 AM; Tue 7 PM – 2 AM; Sat and Sun 4 PM – 2 AM", "note": null },
+    "name": {
+      "en": "Jazzbina",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Live music club at Maršala Tita 38 in a passageway connecting two main streets, with a dedicated weekly program: jazz on Mondays, blues on Tuesdays, rock and funk throughout the week. The 120-square-metre room has a balcony section with large windows. Beer, wine, and spirits served. Alcohol is served.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The Monday jazz night and Tuesday blues night have the most consistent live music quality. On other nights the program depends on which bands are booked — check their social pages before going.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "zlatna-ribica",
+    "category": "nightlife",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8593028, 18.4218694],
+    "google_maps_url": "https://maps.google.com/?q=43.8593028,18.4218694",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Mon – Sat, 4 PM – midnight; closed Sunday", "note": null },
+    "name": {
+      "en": "Zlatna Ribica",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Small bar at Kaptol 5 with baroque and art-deco interior packed with antiques, taxidermy, and curios on every surface. Serves wines, beers, rakija, and limited cocktails. One of the few non-smoking bars in Sarajevo's old-town area; unfiltered Sarajevsko beer is on draught. Alcohol is served.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The bar looks dark and possibly shut from the outside — push the door. The interior is the opposite of the facade and worth the discovery.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "dibek",
+    "category": "nightlife",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8595442, 18.4315744],
+    "google_maps_url": "https://maps.google.com/?q=43.8595442,18.4315744",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily, 8 AM – midnight", "note": null },
+    "name": {
+      "en": "Dibek",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Outdoor shisha lounge in a courtyard near Baščaršija at Luledžina 3, with low sofas, cushioned benches, and a wide range of tobacco flavours. Coffee and non-alcoholic drinks are served; no alcohol. Live music is occasionally hosted in the courtyard on summer evenings. A daytime coffee stop by habit, evening shisha destination by design.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "No alcohol is served. The shisha setup takes 5–7 minutes; order the coal change proactively about 40 minutes in rather than waiting for it to burn out.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "secret-hookah-lounge",
+    "category": "nightlife",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8586183, 18.4304806],
+    "google_maps_url": "https://maps.google.com/?q=43.8586183,18.4304806",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily, 8 AM – 2:30 AM", "note": null },
+    "name": {
+      "en": "Secret Hookah Lounge",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Shisha lounge on Kundurdžiluk street with air conditioning, indoor seating, and a wide flavour menu. Stays open until 2:30 AM, making it one of the later-running shisha venues in the city. Staff speaks English. No alcohol served.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "No alcohol is served. If you are pairing a nightlife evening with shisha, this is the useful late-night option after the bar-focused venues close.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "cinemas-sloga",
+    "category": "nightlife",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8597241, 18.4187837],
+    "google_maps_url": "https://maps.google.com/?q=43.8597241,18.4187837",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Mon, Thu, Fri, Sat 6 PM – 5 AM; closed other days", "note": null },
+    "name": {
+      "en": "Cinemas Sloga",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Large nightclub at Mehmeda Spahe 20, housed in a former Yugoslavian cinema. Upper floor runs rock and DJ sets; lower floor plays traditional and folk music. One of Sarajevo's longest-running clubs, popular with students and a young local crowd. Drinks are affordable by any standard. Alcohol is served.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Thursday is university night — the most energetic of the week. The lower floor is the better choice if you want to experience the folk-music end of Sarajevo's nightlife without the intensity of Kino Bosna.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "shelter-pub",
+    "category": "nightlife",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8588016, 18.4255368],
+    "google_maps_url": "https://maps.google.com/?q=43.8588016,18.4255368",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Hours vary — check before visiting", "note": null },
+    "name": {
+      "en": "Shelter Pub",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Bar at Strossmayerova 3 with a curated beer selection, good food, and live music ranging from open-mic nights to traditional Bosnian sevdah performances. Reviewers consistently describe the staff as exceptionally welcoming. Alcohol is served.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Check their social pages before going to see what's on — a night with live traditional music here is a different experience from an open-mic night, and both are worth the trip for different reasons.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "pink-houdini",
+    "category": "nightlife",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8576718, 18.4216050],
+    "google_maps_url": "https://maps.google.com/?q=43.8576718,18.4216050",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Hours vary — check before visiting", "note": null },
+    "name": {
+      "en": "Pink Houdini",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Underground jazz bar at Branilaca Sarajeva 31 with a cave-like, low-lit interior and walls lined with political books and eclectic artwork. Live music and jam sessions occur regularly; the bar also hosts singers performing along to YouTube playlists on quieter nights. Beer and wine served. Alcohol is served.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The look from outside (dark door, no obvious signage) makes most people walk past it. The interior is the opposite — vivid and densely decorated. Prices are slightly higher than comparable bars; the décor justifies it.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "lounge-bar-baghdad",
+    "category": "nightlife",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": null,
+    "google_maps_url": null,
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Hours vary — check before visiting", "note": null },
+    "name": {
+      "en": "Lounge Bar Baghdad",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Shisha lounge near the Baščaršija area that also serves alcohol, making it one of the few venues where shisha and alcoholic drinks coexist in the same space. Noted for live music performances and a relaxed evening atmosphere. A practical option for mixed groups where some guests do not drink alcohol.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Coordinates could not be confirmed for this entry — search Google Maps or ask hotel staff for the current address before going.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "peoples-wine-club",
+    "category": "nightlife",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": null,
+    "google_maps_url": null,
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Hours vary — check before visiting", "note": null },
+    "name": {
+      "en": "People's Wine Club",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Wine-focused bar with an extensive Bosnian and regional wine list and a short food menu to match. Outdoor seating available in summer. Described consistently as a calmer, more conversation-friendly alternative to Sarajevo's louder nightlife options. Alcohol is served.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Coordinates could not be confirmed for this entry — verify the current location via Google Maps before going. This is a good fit for an earlier-evening option before moving to louder venues.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "hostel-vagabond",
+    "category": "sleep",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8592816, 18.4264981],
+    "google_maps_url": "https://maps.google.com/?q=43.8592816,18.4264981",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Open 24 hours", "note": null },
+    "name": {
+      "en": "Hostel Vagabond",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Hostel in an Austro-Hungarian building at Ferhadija 21, directly on Sarajevo's main pedestrian street — the most central hostel location in the city. Offers dorm beds and private rooms, a bar with beer on tap, and a social common area. Consistent reviews on cleanliness and staff helpfulness.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The owner has an unusually detailed personal knowledge of which restaurant is worth it on which night. Ask him to sketch a walking route on the evening you arrive — it is more useful than any list.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "one-love-hostel",
+    "category": "sleep",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.864444, 18.4231298],
+    "google_maps_url": "https://maps.google.com/?q=43.864444,18.4231298",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Open 24 hours", "note": null },
+    "name": {
+      "en": "One Love Hostel",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Small hillside hostel at Pehlivanuša 67, about 10–15 minutes on foot uphill from Baščaršija, with a balcony overlooking the valley. Quieter than central options; the trade-off is the walk, which is steep with luggage. Clean rooms, locker storage included, AC functional. Staff are consistently praised in reviews for individual attention.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The uphill walk with bags is genuinely tiring. Ask the owner for a trusted taxi contact when booking — the drop-off point at the bottom of the street does not get you to the door.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "hotel-old-town",
+    "category": "sleep",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8586742, 18.4289079],
+    "google_maps_url": "https://maps.google.com/?q=43.8586742,18.4289079",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Open 24 hours", "note": null },
+    "name": {
+      "en": "Hotel Old Town",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Five-room hotel in the pedestrian zone of Baščaršija at Ćurčiluk mali 11a, set on a quieter lane that keeps room noise lower than the main bazaar streets. Halal breakfast options available. Free parking by reservation. Cafés and restaurants within 100 metres in every direction.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Request a room facing the lane rather than the interior courtyard — the lane-facing rooms get natural morning light and enough street activity to feel alive without the noise of Baščaršija's main flow.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "hotel-sana",
+    "category": "sleep",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8603695, 18.4295674],
+    "google_maps_url": "https://maps.google.com/?q=43.8603695,18.4295674",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Open 24 hours", "note": null },
+    "name": {
+      "en": "Hotel Sana",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Boutique hotel at Mula Mustafe Bašeskije 53 on the northern edge of Baščaršija, about three minutes on foot from the Sebilj. Upper-floor rooms look out over old-town rooftops and minarets. Breakfast is extensive; laundry service available on request. Modern interior with traditional design elements.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Room 203 on the upper corner has an angled view of the minarets not available from the other rooms. Mention it by number when booking — it is not the standard room they assign.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "hotel-sokak",
+    "category": "sleep",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8597106, 18.4268474],
+    "google_maps_url": "https://maps.google.com/?q=43.8597106,18.4268474",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Open 24 hours", "note": null },
+    "name": {
+      "en": "Hotel Sokak",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Small recently-renovated hotel at Mula Mustafe Bašeskije 24, three minutes' walk from Baščaršija. Double rooms have air conditioning and a sitting area; single rooms do not have AC (noted in reviews). Staff are consistently cited for giving practical, genuinely local recommendations rather than generic tourist suggestions.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "If you are planning where to eat during your stay, ask the receptionist directly — the staff here have a habit of sketching actual walking directions and naming specific dishes, not just restaurant names.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "hotel-europe",
+    "category": "sleep",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8583500, 18.4274840],
+    "google_maps_url": "https://maps.google.com/?q=43.8583500,18.4274840",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Open 24 hours", "note": null },
+    "name": {
+      "en": "Hotel Europe",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Four-star hotel at Vladislava Skarića 5, in operation in various forms since 1882, one block from the old town boundary. Rooms have high ceilings and Austro-Hungarian-style details. Central heating is the building-wide system; individual room temperature control is limited — this has been raised as a summer comfort issue in reviews.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Request a room on the fifth floor or above — street noise is more noticeable on lower floors, and the breakfast room view improves significantly with height.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "courtyard-marriott-sarajevo",
+    "category": "sleep",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8556858, 18.4152263],
+    "google_maps_url": "https://maps.google.com/?q=43.8556858,18.4152263",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Open 24 hours", "note": null },
+    "name": {
+      "en": "Courtyard by Marriott Sarajevo",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Modern four-star hotel at Skenderija 1 on the Miljacka riverbank, about 15 minutes on foot from Baščaršija. Has a rooftop bar, fitness center, lobby restaurant, and tram access directly outside. Rooms look over the river and surrounding hills; reliable WiFi throughout. The most consistently well-reviewed mid-range international chain option in the city.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The rooftop bar is open to non-guests as well. It is one of the better places in the city for a sunset drink across the river — no reservation needed, but tables go quickly on summer evenings after about 6 PM.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "isa-beg-hamam-hotel",
+    "category": "sleep",
+    "featured": false,
+    "partner_discount": null,
+    "local_secret": false,
+    "submitted_by": null,
+    "coordinates": [43.8573080, 18.4301884],
+    "google_maps_url": "https://maps.google.com/?q=43.8573080,18.4301884",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Open 24 hours", "note": null },
+    "name": {
+      "en": "İsa Begov Hamam Hotel",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Boutique hotel at Bistrik 1 attached to a restored 15th-century Ottoman hammam. The sauna and steam room are included for guests at no extra charge; massage services are available at an additional fee. Rooms feature hand-carved wooden furniture in Ottoman style, handmade carpets, and wooden floors. 100 metres from the Latin Bridge.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Book the hammam session for 8–10 AM, before other guests are typically awake. The facility is small — if three or four guests use it simultaneously it loses the atmosphere entirely.",
       "tr": null, "ar": null, "de": null, "zh": null
     }
   }

@@ -1,6 +1,7 @@
 /* Navi — Location list + cards (the scrollable guide panel below the map) */
 
 #list {
+  position: relative;  /* makes offsetTop of children measure from #list, not body */
   flex: 2 1 0;        /* takes 2/3 of post-header space; map takes 1/3 */
   min-height: 0;
   overflow-y: auto;

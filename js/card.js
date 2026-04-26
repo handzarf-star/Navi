@@ -71,6 +71,21 @@ function naviBuildCard(loc, lang) {
   return article;
 }
 
+/* Scroll #list so cardEl's TOP lines up with the top of the visible list panel.
+   Uses getBoundingClientRect (not offsetTop) so it's immune to whatever is
+   stacked above the list — header, map, future category bar, etc. */
+function scrollCardToTop(cardEl, collapsingHeightAbove) {
+  const list = document.getElementById(LIST_CONTAINER_ID);
+  if (!list || !cardEl) return;
+  const cardRect = cardEl.getBoundingClientRect();
+  const listRect = list.getBoundingClientRect();
+  // current top of card relative to list's scrolled content
+  const currentOffsetInList = (cardRect.top - listRect.top) + list.scrollTop;
+  // subtract the height that's about to disappear above us when another card collapses
+  const targetTop = Math.max(0, currentOffsetInList - (collapsingHeightAbove || 0) - 4);
+  list.scrollTo({ top: targetTop, behavior: 'smooth' });
+}
+
 function toggleCard(cardEl, loc) {
   const wasOpen = cardEl.classList.contains('expanded');
   const list = document.getElementById(LIST_CONTAINER_ID);
@@ -110,14 +125,8 @@ function toggleCard(cardEl, loc) {
     panToLocation(loc.coordinates, 17);
   }
 
-  // Scroll so the card TITLE lands at the top of the list panel.
-  // cardEl.offsetTop currently reflects the layout BEFORE the collapse animation
-  // has progressed, so subtract the collapsing card's expand-area height to land
-  // at the FINAL position once everything settles.
-  if (list) {
-    const targetTop = Math.max(0, cardEl.offsetTop - collapsingHeightAbove - 4);
-    list.scrollTo({ top: targetTop, behavior: 'smooth' });
-  }
+  // Scroll the title to the top of the list panel.
+  scrollCardToTop(cardEl, collapsingHeightAbove);
 }
 
 // Called from map.js when a pin is tapped
@@ -129,9 +138,8 @@ function focusCard(id) {
   if (!cardEl.classList.contains('expanded')) {
     toggleCard(cardEl, loc);
   } else {
-    // Already open — just scroll into view
-    const list = document.getElementById(LIST_CONTAINER_ID);
-    if (list) list.scrollTo({ top: cardEl.offsetTop - 4, behavior: 'smooth' });
+    // Already open — just scroll the title to the top
+    scrollCardToTop(cardEl, 0);
   }
 }
 

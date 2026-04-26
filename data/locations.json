@@ -10,24 +10,15 @@
     "hours": { "en": "Always open", "note": null },
     "name": {
       "en": "Baščaršija Bazaar",
-      "tr": null,
-      "ar": null,
-      "de": null,
-      "zh": null
+      "tr": null, "ar": null, "de": null, "zh": null
     },
     "description": {
       "en": "The oldest part of Sarajevo — a compact grid of cobblestone lanes, coppersmiths, and cafés that has changed surprisingly little since the 1460s. Start here on your first morning: order a Bosnian coffee, sit, and let the neighborhood move around you. Everything worth seeing in the old town is within five minutes of this spot.",
-      "tr": null,
-      "ar": null,
-      "de": null,
-      "zh": null
+      "tr": null, "ar": null, "de": null, "zh": null
     },
     "insider_tip": {
       "en": "Come once in the morning for the quiet, then again after sunset when the lanterns come on — it feels like a completely different place.",
-      "tr": null,
-      "ar": null,
-      "de": null,
-      "zh": null
+      "tr": null, "ar": null, "de": null, "zh": null
     }
   },
   {
@@ -41,24 +32,15 @@
     "hours": { "en": "Always open", "note": null },
     "name": {
       "en": "Sebilj Fountain",
-      "tr": null,
-      "ar": null,
-      "de": null,
-      "zh": null
+      "tr": null, "ar": null, "de": null, "zh": null
     },
     "description": {
       "en": "The wooden fountain in the middle of Baščaršija, surrounded by benches and pigeons. It was built in 1753, rebuilt in 1891, and has been the symbol of Sarajevo ever since. Local legend says anyone who drinks the water here will come back to the city.",
-      "tr": null,
-      "ar": null,
-      "de": null,
-      "zh": null
+      "tr": null, "ar": null, "de": null, "zh": null
     },
     "insider_tip": {
       "en": "Buy a small bag of corn from the stalls nearby to feed the pigeons — it is the classic photo every family takes home.",
-      "tr": null,
-      "ar": null,
-      "de": null,
-      "zh": null
+      "tr": null, "ar": null, "de": null, "zh": null
     }
   },
   {
@@ -72,24 +54,499 @@
     "hours": { "en": "Outside prayer times", "note": "Non-Muslim visitors welcome outside prayer times" },
     "name": {
       "en": "Gazi Husrev-beg Mosque",
-      "tr": null,
-      "ar": null,
-      "de": null,
-      "zh": null
+      "tr": null, "ar": null, "de": null, "zh": null
     },
     "description": {
       "en": "Bosnia's most important mosque, completed in 1531 by the Ottoman governor who gave it his name. The courtyard — a fountain, a sundial, rows of worn stone — is one of the calmest places in the old town. Visitors of any faith are welcome outside prayer times: shoes off, shoulders and knees covered.",
-      "tr": null,
-      "ar": null,
-      "de": null,
-      "zh": null
+      "tr": null, "ar": null, "de": null, "zh": null
     },
     "insider_tip": {
       "en": "Go right after morning prayer ends, around 8am in summer — the light through the dome is at its best and you will likely have the courtyard to yourself.",
-      "tr": null,
-      "ar": null,
-      "de": null,
-      "zh": null
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "emperors-mosque",
+    "category": "religious",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.857426, 18.430696],
+    "google_maps_url": "https://maps.google.com/?q=43.857426,18.430696",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Outside prayer times", "note": null },
+    "name": {
+      "en": "Emperor's Mosque (Careva džamija)",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "The oldest mosque in Sarajevo, first built in 1457 and rebuilt in the 1560s. It sits on the south bank of the Miljacka, directly across from the old town, which makes it quieter and more dignified than the busier mosques in Baščaršija. The garden and ablution fountain are particularly worth seeing in spring.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Walk across the small bridge in front and look back — the reflection of the mosque in the river is the photo most tourists miss.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "old-orthodox-church",
+    "category": "religious",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.860308, 18.429958],
+    "google_maps_url": "https://maps.google.com/?q=43.860308,18.429958",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily", "note": null },
+    "name": {
+      "en": "Old Serbian Orthodox Church",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "A small 16th-century Orthodox church tucked into a side street — easy to walk past, which is part of the charm. The attached museum holds some of the most significant Orthodox icons in the Balkans. Candle smoke, dim light, and thick stone walls make this feel like stepping four hundred years back in a single step.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "If the main door looks closed, ring the bell — the caretaker often lets visitors in during off-hours.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "latin-bridge",
+    "category": "landmark",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.857606, 18.428958],
+    "google_maps_url": "https://maps.google.com/?q=43.857606,18.428958",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Always open", "note": null },
+    "name": {
+      "en": "Latin Bridge",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "A small Ottoman stone bridge from 1798 that would be unremarkable if not for one moment: Archduke Franz Ferdinand was shot at its north corner on June 28, 1914, and a world war followed within weeks. The bridge itself has survived every war since. The small museum at the corner is well curated.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Budget twenty minutes for the corner museum if the history interests you — the timeline displays are better than the bridge itself.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "vijecnica-city-hall",
+    "category": "landmark",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.859193, 18.433578],
+    "google_maps_url": "https://maps.google.com/?q=43.859193,18.433578",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily", "note": null },
+    "name": {
+      "en": "Vijećnica (City Hall)",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "Sarajevo's most beautiful building — a pseudo-Moorish masterpiece completed in 1896 under Austro-Hungarian rule. It served as the national library until it was deliberately shelled in 1992, destroying two million books. It reopened in 2014 after two decades of restoration. The interior is what most tourists miss.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Pay the small entrance fee and go inside — the stained-glass ceiling above the central atrium is the real prize.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "house-of-spite",
+    "category": "landmark",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.858510, 18.434308],
+    "google_maps_url": "https://maps.google.com/?q=43.858510,18.434308",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Lunch and dinner", "note": null },
+    "name": {
+      "en": "House of Spite (Inat Kuća)",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "A tiny Ottoman house directly across the river from City Hall. The story: its owner refused to sell when City Hall was being built, so in the end the whole house was moved, stone by stone, to the other bank. Today it is a traditional Bosnian restaurant — the story is better than the menu, but both are good.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "If the wait for a table is long, just order coffee on the terrace — the view of Vijećnica from here is one of the best in the city.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "war-crimes-museum",
+    "category": "museum",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.859052, 18.426387],
+    "google_maps_url": "https://maps.google.com/?q=43.859052,18.426387",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily", "note": null },
+    "name": {
+      "en": "Museum of Crimes Against Humanity & Genocide",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "A small, privately run museum documenting the 1992–1995 siege of Sarajevo through personal objects, letters, and photographs from survivors. It is emotionally heavy and not suitable for young children, but essential for understanding modern Sarajevo. Most visitors stay 45 to 60 minutes. English signage throughout.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Visit this before the Tunnel of Hope — the two together tell the story of the siege in the right order.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "sacred-heart-cathedral",
+    "category": "religious",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.859372, 18.425561],
+    "google_maps_url": "https://maps.google.com/?q=43.859372,18.425561",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily", "note": null },
+    "name": {
+      "en": "Sacred Heart Cathedral",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "The main Catholic cathedral of Sarajevo, built in 1889 in neo-Gothic style. It is one of the quiet reasons this city is unusual in Europe — a cathedral, a synagogue, an Orthodox church, and a major mosque all stand within a ten-minute walk of each other. The square in front is the social center of the Austro-Hungarian quarter.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The statue of Pope John Paul II on the north side marks where he addressed 60,000 people in 1997 — a small detail most tours skip.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "eternal-flame",
+    "category": "landmark",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.858816, 18.421864],
+    "google_maps_url": "https://maps.google.com/?q=43.858816,18.421864",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Always open", "note": null },
+    "name": {
+      "en": "Eternal Flame (Vječna Vatra)",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "A small flame in a stone alcove on Ferhadija street, burning continuously since 1946 in memory of Sarajevo's World War II dead — from every side of the conflict. It was never extinguished during the 1990s siege, even when the city had almost no gas. Easy to walk past; worth stopping for a minute.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The inscription is in Bosnian — the caretakers nearby will translate it if you ask, and it is worth hearing.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "sarajevo-brewery",
+    "category": "museum",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.856160, 18.432541],
+    "google_maps_url": "https://maps.google.com/?q=43.856160,18.432541",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Lunch and dinner", "note": null },
+    "name": {
+      "en": "Sarajevo Brewery Museum (Pivara)",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "The brewery has operated here since 1864 and became famous during the 1990s siege for keeping the city supplied with clean water when the municipal supply was cut. The small museum tells that story. The attached restaurant serves the unfiltered version of their beer, which you cannot buy in any shop in the country.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Order the unfiltered house lager with the traditional beef stew — it is the pairing every local defaults to.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "ali-pasha-mosque",
+    "category": "religious",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.857964, 18.412782],
+    "google_maps_url": "https://maps.google.com/?q=43.857964,18.412782",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Outside prayer times", "note": null },
+    "name": {
+      "en": "Ali Pasha's Mosque",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "A smaller 16th-century mosque at the western edge of the old town, built in the Ottoman classical style. Most tourists walk past it on their way between the Austro-Hungarian quarter and the museums. Inside, the Iznik tile decoration is beautifully preserved, and the side garden is one of the few genuinely quiet corners left in central Sarajevo.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Step into the small side garden — it is the kind of quiet you cannot find closer to Baščaršija.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "national-museum",
+    "category": "museum",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.855043, 18.402622],
+    "google_maps_url": "https://maps.google.com/?q=43.855043,18.402622",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily", "note": null },
+    "name": {
+      "en": "National Museum of Bosnia & Herzegovina",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "The country's oldest and largest museum, founded in 1888. It holds the Sarajevo Haggadah — a 14th-century Jewish manuscript that has survived the Spanish Inquisition, both World Wars, and the 1990s siege of Sarajevo. The building itself, four wings around a small botanical garden, is worth the visit on its own.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The Haggadah is only displayed on certain days — check the museum's website before you go if seeing it matters to you.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "history-museum",
+    "category": "museum",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.855176, 18.401079],
+    "google_maps_url": "https://maps.google.com/?q=43.855176,18.401079",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily", "note": null },
+    "name": {
+      "en": "History Museum of Bosnia & Herzegovina",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "A small museum next door to the National Museum, focused almost entirely on the 1992–1995 siege. The permanent exhibition uses everyday objects — coffee makers, children's toys, improvised heaters — to show how people actually lived through 1,425 days of siege. The most human introduction to the war you can find in Sarajevo.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "The outdoor café behind the museum (Tito's) is a Sarajevo classic — a good place for a beer after the weight of the exhibit.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "avaz-tower",
+    "category": "landmark",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.860745, 18.402102],
+    "google_maps_url": "https://maps.google.com/?q=43.860745,18.402102",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily", "note": null },
+    "name": {
+      "en": "Avaz Twist Tower",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "The tallest building in the Balkans at 176 meters, finished in 2008 as the headquarters of the Dnevni Avaz newspaper. The 35th-floor observation deck gives you the best single view of Sarajevo: the entire valley, the surrounding mountains, and on clear days the peaks of Igman and Bjelašnica. Take a coffee up with you.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Go up in the late afternoon and stay through sunset — the city lighting up below is the real reason to come.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "yellow-fortress",
+    "category": "viewpoint",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.861441, 18.437648],
+    "google_maps_url": "https://maps.google.com/?q=43.861441,18.437648",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Always open", "note": null },
+    "name": {
+      "en": "Yellow Fortress (Žuta Tabija)",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "An 18th-century Ottoman bastion on a hill above the old town, about 15 minutes' walk uphill from Baščaršija. This is where Sarajevans come to watch the sunset, especially during Ramadan — the cannon that signals iftar is fired from here. The view over the old town at dusk is the best in the city.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Bring a coffee from Baščaršija and hike up an hour before sunset — the café at the top is inconsistent.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "white-fortress",
+    "category": "viewpoint",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.859481, 18.444560],
+    "google_maps_url": "https://maps.google.com/?q=43.859481,18.444560",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Always open", "note": null },
+    "name": {
+      "en": "White Fortress (Bijela Tabija)",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "The largest of Sarajevo's old fortresses, dating from the 16th century, sitting on the highest ridge above the old town. It is a steeper 30-minute walk from Baščaršija and draws far fewer visitors than Yellow Fortress — which is part of the appeal. The view is even more open.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "If you are already at Yellow Fortress, keep going another 15 minutes up the ridge — most tourists turn back too soon.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "kovaci-cemetery",
+    "category": "memorial",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.861264, 18.434268],
+    "google_maps_url": "https://maps.google.com/?q=43.861264,18.434268",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Always open", "note": null },
+    "name": {
+      "en": "Kovači Martyrs' Cemetery",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "The main memorial cemetery for Army of Bosnia and Herzegovina soldiers and civilians who died in the 1992–1995 siege, including the grave of President Alija Izetbegović. The rows of white headstones on the hillside above Baščaršija are among the most solemn sights in the city. A place to walk through quietly.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Walk up from Baščaršija and continue to Yellow Fortress from here — cemetery, fortress, and view form a natural route.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "alifakovac-cemetery",
+    "category": "memorial",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.857780, 18.437442],
+    "google_maps_url": "https://maps.google.com/?q=43.857780,18.437442",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Always open", "note": null },
+    "name": {
+      "en": "Alifakovac Cemetery",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "An old Ottoman cemetery on the hillside across the river, dating back to the 15th century. Many of the graves are of travelers and merchants who died in Sarajevo far from home — the city's old tradition of hospitality extending even to burial rites. The view of Baščaršija from up here is one the postcards miss.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Approach from Inat Kuća and walk up through the narrow lanes — it is one of the most atmospheric routes in the old town.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "trebevic-cable-car",
+    "category": "experience",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.855562, 18.434971],
+    "google_maps_url": "https://maps.google.com/?q=43.855562,18.434971",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily", "note": "Seasonal hours apply" },
+    "name": {
+      "en": "Trebević Cable Car (Sarajevska Žičara)",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "A cable car running from Bistrik, a short walk from the old town, to the top of Trebević mountain in nine minutes. The original was destroyed in the 1990s war; the rebuilt version opened in 2018 and quickly became one of the city's favorite attractions. The ride alone is worth the ticket.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Buy a round-trip ticket but plan to stay on the mountain for at least two hours — there is a café, hiking trails, and the old bobsled track at the top.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "bobsled-track",
+    "category": "landmark",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.839181, 18.443367],
+    "google_maps_url": "https://maps.google.com/?q=43.839181,18.443367",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Always open", "note": null },
+    "name": {
+      "en": "Olympic Bobsled Track (1984)",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "The abandoned concrete track from the 1984 Sarajevo Winter Olympics, now covered in graffiti and slowly being reclaimed by the forest on Trebević mountain. An Olympic venue that became a ruin, and then an open-air gallery. A 20-minute walk from the top of the cable car along a well-marked path.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Wear shoes with grip — parts of the concrete are worn smooth and slippery when wet.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "trebevic-viewpoint",
+    "category": "viewpoint",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.841764, 18.453382],
+    "google_maps_url": "https://maps.google.com/?q=43.841764,18.453382",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Always open", "note": null },
+    "name": {
+      "en": "Trebević Panorama Viewpoint",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "A wooden viewing platform on the ridge of Trebević, about 30 minutes' walk from the top of the cable car. The view takes in the whole Sarajevo valley in one frame: old town, Austro-Hungarian quarter, and the modern city. Quieter, and frankly better, than the view from the cable car station itself.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Pack a light snack and water — the café near the cable car is the last food stop before the trails.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "tunnel-of-hope",
+    "category": "museum",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.819832, 18.337304],
+    "google_maps_url": "https://maps.google.com/?q=43.819832,18.337304",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daily", "note": null },
+    "name": {
+      "en": "Tunnel of Hope (Tunel Spasa)",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "The 800-meter tunnel dug beneath Sarajevo Airport during the 1992–1995 siege — the single lifeline that connected the besieged city to the outside world. A 20-meter section is preserved as a museum, along with the house where the digging started. The most important historical site for understanding the siege.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "It is about 20 minutes by taxi from the old town and not well served by public transport — agree a round-trip fare with the driver and have them wait.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    }
+  },
+  {
+    "id": "vrelo-bosne",
+    "category": "nature",
+    "featured": false,
+    "partner_discount": null,
+    "coordinates": [43.818791, 18.268000],
+    "google_maps_url": "https://maps.google.com/?q=43.818791,18.268000",
+    "photo": "assets/images/placeholder.webp",
+    "hours": { "en": "Daylight hours", "note": null },
+    "name": {
+      "en": "Vrelo Bosne (Source of the Bosna River)",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "description": {
+      "en": "The spring where the river Bosna begins, in a landscaped park at the western edge of Sarajevo. The classic day out: a horse-drawn carriage down a one-kilometer avenue of plane trees, a walk around the clear springs and wooden bridges, and lunch at the park's traditional restaurant. A completely different Sarajevo from the old town.",
+      "tr": null, "ar": null, "de": null, "zh": null
+    },
+    "insider_tip": {
+      "en": "Go on a weekday morning — weekends are packed with local families, which is charming but not peaceful.",
+      "tr": null, "ar": null, "de": null, "zh": null
     }
   }
 ]

@@ -1,0 +1,295 @@
+/* Navi — Ask a Sarajevan modal + the in-card "Ask" link */
+
+/* ---- Modal overlay & panel ---- */
+.ask-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(26, 26, 46, 0.55);
+  display: none;
+  align-items: flex-end;             /* phone: bottom-sheet */
+  justify-content: center;
+  z-index: 10000;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (min-width: 600px) {
+  .ask-overlay {
+    align-items: center;             /* desktop: centered card */
+    padding: var(--space-lg);
+  }
+}
+
+.ask-overlay.open {
+  display: flex;
+  animation: askFade 180ms ease-out;
+}
+
+@keyframes askFade {
+  from { background-color: rgba(26, 26, 46, 0); }
+  to   { background-color: rgba(26, 26, 46, 0.55); }
+}
+
+.ask-panel {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 520px;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  padding: var(--space-lg) var(--space-md) var(--space-md);
+  box-shadow: 0 -8px 32px rgba(26, 26, 46, 0.25);
+  animation: askSlide 220ms cubic-bezier(0.2, 0.8, 0.25, 1);
+  max-height: 90vh;
+  max-height: 90dvh;
+  overflow-y: auto;
+}
+
+@media (min-width: 600px) {
+  .ask-panel {
+    border-radius: var(--radius-lg);
+  }
+}
+
+@keyframes askSlide {
+  from { transform: translateY(40px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+
+.ask-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.ask-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-text);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 1.2;
+}
+
+.ask-title::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-sage);
+}
+
+.ask-subtitle {
+  font-size: var(--font-size-sm);
+  color: rgba(26, 26, 46, 0.65);
+  margin: 6px 0 0 0;
+  line-height: 1.45;
+}
+
+.ask-close {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(26, 26, 46, 0.06);
+  color: var(--color-text);
+  font-size: 20px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.ask-close:hover { background-color: rgba(26, 26, 46, 0.12); }
+
+/* The "About: <place name>" chip */
+.ask-place {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-sage);
+  background-color: var(--color-sage-soft);
+  padding: 5px 10px;
+  border-radius: var(--radius-full);
+  margin-bottom: var(--space-md);
+  letter-spacing: 0.2px;
+}
+
+.ask-place[hidden] { display: none; }
+
+/* ---- Form fields ---- */
+.ask-field {
+  display: block;
+  margin-bottom: var(--space-md);
+}
+
+.ask-field > label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 6px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.ask-field input,
+.ask-field textarea {
+  width: 100%;
+  border: 1px solid rgba(26, 26, 46, 0.15);
+  border-radius: var(--radius-md);
+  padding: 12px;
+  font: inherit;
+  color: var(--color-text);
+  background-color: #ffffff;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.ask-field textarea {
+  min-height: 88px;
+  resize: vertical;
+  font-family: inherit;
+  line-height: 1.5;
+}
+
+.ask-field input:focus,
+.ask-field textarea:focus {
+  outline: none;
+  border-color: var(--color-sage);
+  box-shadow: 0 0 0 3px rgba(125, 149, 122, 0.18);
+}
+
+.ask-field input::placeholder,
+.ask-field textarea::placeholder {
+  color: rgba(26, 26, 46, 0.35);
+}
+
+/* ---- Action buttons ---- */
+.ask-actions {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: center;
+  margin-top: var(--space-md);
+}
+
+.ask-btn {
+  flex: 1;
+  padding: 14px var(--space-md);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: var(--font-size-base);
+  transition: background-color 140ms ease, transform 100ms ease,
+              box-shadow 140ms ease;
+}
+
+.ask-btn:active { transform: scale(0.98); }
+
+.ask-btn--primary {
+  background-color: var(--color-sage);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(125, 149, 122, 0.4);
+}
+
+.ask-btn--primary:hover { background-color: #6c8369; }
+.ask-btn--primary:disabled { opacity: 0.6; cursor: wait; }
+
+.ask-btn--ghost {
+  background-color: rgba(26, 26, 46, 0.04);
+  color: var(--color-text);
+}
+
+.ask-btn--ghost:hover { background-color: rgba(26, 26, 46, 0.10); }
+
+/* ---- Confirmation / error states ---- */
+.ask-state {
+  text-align: center;
+  padding: var(--space-md) 0 var(--space-sm);
+}
+
+.ask-state-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin: 0 auto var(--space-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.ask-state--ok .ask-state-icon {
+  background-color: var(--color-sage);
+  color: #ffffff;
+}
+
+.ask-state--err .ask-state-icon {
+  background-color: #c9533a;
+  color: #ffffff;
+}
+
+.ask-state h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: var(--font-size-lg);
+  margin: 0 0 8px;
+  font-weight: 500;
+}
+
+.ask-state p {
+  font-size: var(--font-size-sm);
+  color: rgba(26, 26, 46, 0.7);
+  margin: 0 auto var(--space-md);
+  line-height: 1.5;
+  max-width: 380px;
+}
+
+.ask-state .ask-btn {
+  flex: 0 0 auto;
+  display: inline-flex;
+  padding: 10px 18px;
+}
+
+/* ---- Card-level "Ask a Sarajevan" link (in expanded card body) ---- */
+.loc-ask-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: var(--space-md);
+  padding: 12px var(--space-md);
+  border-radius: var(--radius-md);
+  border: 1px dashed var(--color-sage);
+  color: var(--color-sage);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  width: 100%;
+  background-color: transparent;
+  transition: background-color 140ms ease;
+  cursor: pointer;
+}
+
+.loc-ask-link:hover { background-color: var(--color-sage-soft); }
+
+.loc-ask-link::before {
+  content: "?";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: var(--color-sage);
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: Georgia, serif;
+  line-height: 1;
+}
+
+body.modal-open { overflow: hidden; }

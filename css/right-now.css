@@ -1,0 +1,163 @@
+/* Navi — Right Now strip + Route header & step badges */
+
+/* ---- The strip itself (between map and category bar) ---- */
+.right-now {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  padding: 10px var(--space-md);
+  background: linear-gradient(135deg, var(--color-brand-dark) 0%, #2a2a45 100%);
+  color: var(--color-brand-cream);
+  z-index: var(--z-ui);
+  position: relative;
+}
+
+.right-now[hidden] { display: none; }
+
+.right-now-context {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  opacity: 0.85;
+  flex-wrap: wrap;
+  min-width: 0;
+}
+
+.right-now-time { font-weight: 600; white-space: nowrap; }
+.right-now-sep { opacity: 0.45; }
+.right-now-weather { font-weight: 500; white-space: nowrap; }
+
+.right-now-route {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  flex-shrink: 0;
+}
+
+.right-now-route-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  line-height: 1.2;
+  min-width: 0;
+}
+
+.right-now-route-info strong {
+  font-size: 13px;
+  color: var(--color-brand-gold);
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 140px;
+}
+
+.right-now-route-meta {
+  font-size: 10px;
+  opacity: 0.7;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  margin-top: 2px;
+  white-space: nowrap;
+}
+
+.right-now-go {
+  flex-shrink: 0;
+  padding: 8px 14px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-brand-gold);
+  color: var(--color-brand-dark);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  transition: transform 100ms ease, box-shadow 140ms ease;
+  white-space: nowrap;
+}
+
+.right-now-go:hover  { box-shadow: 0 4px 10px rgba(200, 164, 94, 0.4); }
+.right-now-go:active { transform: scale(0.96); }
+
+/* ---- Route header (appears at top of #list when a route is active) ---- */
+.route-header {
+  display: flex;
+  align-items: stretch;
+  gap: var(--space-md);
+  padding: var(--space-lg) var(--space-md);
+  background: linear-gradient(180deg, var(--color-brand-cream) 0%, #f3eee4 100%);
+  border-bottom: 1px solid rgba(26, 26, 46, 0.08);
+}
+
+.route-header-body { flex: 1; min-width: 0; }
+
+.route-header-label {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--color-brand-gold);
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.route-header-name {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  color: var(--color-text);
+  margin: 0 0 6px 0;
+  line-height: 1.15;
+}
+
+.route-header-desc {
+  font-size: var(--font-size-sm);
+  color: rgba(26, 26, 46, 0.7);
+  line-height: 1.5;
+  margin: 0 0 8px 0;
+}
+
+.route-header-meta {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-brand-dark);
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.route-header-exit {
+  flex-shrink: 0;
+  align-self: flex-start;
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  background-color: rgba(26, 26, 46, 0.08);
+  color: var(--color-text);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.route-header-exit:hover { background-color: rgba(26, 26, 46, 0.14); }
+
+/* ---- Stepped thumbnail in route mode (numbered, gold, serif) ----
+   Specificity matches .loc-card.featured .loc-thumb so cascade order wins.
+   right-now.css is loaded after card.css in app.html. */
+.loc-card.route-step .loc-thumb {
+  background: linear-gradient(135deg, var(--color-brand-gold) 0%, #d4b374 100%);
+  color: var(--color-brand-dark);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  box-shadow: 0 1px 4px rgba(200, 164, 94, 0.4);
+}
+
+.loc-card.route-step.local-secret .loc-thumb {
+  /* If a route stop happens to be a local secret, keep the step style \u2014
+     the route is the user's primary intent right now. */
+  background: linear-gradient(135deg, var(--color-brand-gold) 0%, #d4b374 100%);
+  color: var(--color-brand-dark);
+}

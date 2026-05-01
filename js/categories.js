@@ -16,6 +16,7 @@ const NAVI_CATEGORIES = [
 
 let naviAllLocations = [];
 let naviCurrentCategory = 'all';
+let naviActiveRoute = null;       // when set, overrides category filtering
 
 function naviMatchesCategory(loc, key) {
   if (!loc) return false;
@@ -41,6 +42,7 @@ function naviUpdateActiveButton() {
 function applyCategory(key) {
   if (!NAVI_CATEGORIES.some(c => c.key === key)) return;
   naviCurrentCategory = key;
+  naviActiveRoute = null;        // tapping any category exits route mode
   naviUpdateActiveButton();
 
   const filtered = naviFilteredLocations();
@@ -56,6 +58,41 @@ function applyCategory(key) {
   // Scroll the list back to the top so the user sees the new results.
   const list = document.getElementById('list');
   if (list) list.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
+}
+
+/* Activate a route: list shows route's stops in order, map shows just those pins,
+   no category pill is active. Triggered by Right Now strip's "Show me" button. */
+function applyRoute(routeId) {
+  const routes = window.naviRoutes || [];
+  const route = routes.find(r => r.id === routeId);
+  if (!route) return;
+
+  naviActiveRoute = route;
+  naviCurrentCategory = null;
+  naviUpdateActiveButton();
+
+  // Resolve the route's location IDs to actual location objects, in route order.
+  const byId = new Map(naviAllLocations.map(l => [l.id, l]));
+  const ordered = route.locations.map(id => byId.get(id)).filter(Boolean);
+
+  if (typeof renderList === 'function') {
+    renderList(
+      ordered,
+      typeof naviCurrentLang === 'string' ? naviCurrentLang : 'en',
+      { route: route }
+    );
+  }
+  if (typeof setPinsVisible === 'function') {
+    setPinsVisible(new Set(ordered.map(l => l.id)));
+  }
+
+  const list = document.getElementById('list');
+  if (list) list.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
+}
+
+function exitRoute() {
+  naviActiveRoute = null;
+  applyCategory('all');
 }
 
 function naviBuildCategoryButton(cat) {

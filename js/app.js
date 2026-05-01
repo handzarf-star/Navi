@@ -33,6 +33,19 @@ async function bootstrap() {
   // initCategories takes the full filterable set, applies "All" by default,
   // which itself calls renderList(...) — so no separate renderList call here.
   initCategories(locations);
+
+  // Ask a Sarajevan: wires up the modal (open/close, submit, escape, click-out).
+  // Safe to call regardless of right-now state — modal lives at the document root.
+  if (typeof initAsk === 'function') initAsk();
+
+  // Right Now Engine: fetches weather + routes, renders the strip above categories.
+  // Awaited so the strip is visible before we log "rendered" — but failures here
+  // are non-fatal (initRightNow swallows network errors and just hides the strip).
+  if (typeof initRightNow === 'function') {
+    try { await initRightNow(); }
+    catch (err) { console.warn('[Navi] Right Now Engine failed to init:', err); }
+  }
+
   console.log(
     `[Navi] Rendered ${locations.length} location${locations.length === 1 ? '' : 's'}` +
     (skipped ? ` (skipped ${skipped} pending coordinate verification).` : '.')

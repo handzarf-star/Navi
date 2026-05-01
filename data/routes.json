@@ -1,0 +1,86 @@
+[
+  {
+    "id": "rainy_afternoon",
+    "name": "Rainy Afternoon",
+    "description": "Three hours of warm interiors, copper pots, and dramatic light \u2014 the city Sarajevans love when the weather doesn't cooperate.",
+    "duration_label": "3 hrs",
+    "match": { "weather": ["rain", "snow"], "time_of_day": ["morning", "afternoon", "evening"] },
+    "locations": [
+      "sarajevo-brewery",
+      "vijecnica-city-hall",
+      "sacred-heart-cathedral",
+      "cafe-divan",
+      "cevabdzinica-zeljo"
+    ]
+  },
+  {
+    "id": "sunny_morning",
+    "name": "Sunny Morning Walk",
+    "description": "Catch the city before the heat \u2014 fortress views, the bazaar waking up, and a real Bosnian coffee.",
+    "duration_label": "4 hrs",
+    "match": { "weather": ["clear"], "time_of_day": ["morning", "afternoon"] },
+    "locations": [
+      "yellow-fortress",
+      "kovaci-cemetery",
+      "sebilj-fountain",
+      "gazi-husrev-beg-mosque",
+      "cafe-divan",
+      "dveri"
+    ]
+  },
+  {
+    "id": "golden_hour",
+    "name": "Golden Hour",
+    "description": "Last two hours of light, in the right places. Cable car up, sunset terrace, sevdah after dark.",
+    "duration_label": "4 hrs",
+    "match": { "weather": ["clear", "cloudy"], "time_of_day": ["evening"] },
+    "locations": [
+      "trebevic-cable-car",
+      "trebevic-viewpoint",
+      "park-princeva",
+      "kino-bosna"
+    ]
+  },
+  {
+    "id": "slow_morning",
+    "name": "Slow Morning",
+    "description": "Sarajevo as locals do it \u2014 coffee first, then everything else. For mornings the weather can't decide.",
+    "duration_label": "3 hrs",
+    "match": { "weather": ["cloudy"], "time_of_day": ["morning", "afternoon"] },
+    "locations": [
+      "franz-und-sophie",
+      "brunch-sa",
+      "miris-dunja-bascarsija",
+      "kawa",
+      "sebilj-fountain"
+    ]
+  },
+  {
+    "id": "jetlagged_first_night",
+    "name": "First Night, Easy",
+    "description": "Iconic, low-energy, walkable \u2014 four places, dinner, then bed. Save the fortress for tomorrow.",
+    "duration_label": "2 hrs",
+    "match": { "weather": ["clear", "cloudy", "rain", "snow"], "time_of_day": ["evening", "night"] },
+    "locations": [
+      "sebilj-fountain",
+      "eternal-flame",
+      "sacred-heart-cathedral",
+      "cevabdzinica-zeljo",
+      "cafe-tito"
+    ]
+  },
+  {
+    "id": "one_hour_out",
+    "name": "One Hour, Done Right",
+    "description": "If you only have one hour, here's what matters \u2014 five steps, every one within a five-minute walk.",
+    "duration_label": "1 hr",
+    "match": { "weather": ["clear", "cloudy", "rain", "snow"], "time_of_day": ["morning", "afternoon", "evening"] },
+    "locations": [
+      "sebilj-fountain",
+      "gazi-husrev-beg-mosque",
+      "eternal-flame",
+      "latin-bridge",
+      "sacred-heart-cathedral"
+    ]
+  }
+]

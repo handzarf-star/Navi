@@ -35,19 +35,22 @@ function naviEscape(str) {
     .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
-function naviBuildCard(loc, lang) {
+function naviBuildCard(loc, lang, step) {
   const name = naviPickString(loc.name, lang) || loc.id;
   const description = naviPickString(loc.description, lang);
   const tip = naviPickString(loc.insider_tip, lang);
   const hours = naviPickString(loc.hours, lang);
   const featured = loc.featured === true;
   const isLocalSecret = loc.local_secret === true || !!loc.submitted_by;
-  const initials = naviGetInitials(name);
+  // In route mode, the thumb shows the step number (1, 2, 3...) instead of initials.
+  const isRouteStep = (typeof step === 'number');
+  const thumbContent = isRouteStep ? String(step) : naviGetInitials(name);
 
   const article = document.createElement('article');
   article.className = 'loc-card'
     + (featured ? ' featured' : '')
-    + (isLocalSecret ? ' local-secret' : '');
+    + (isLocalSecret ? ' local-secret' : '')
+    + (isRouteStep ? ' route-step' : '');
   article.dataset.id = loc.id;
 
   // A card can be both featured and a local secret — show both badges.
@@ -66,7 +69,7 @@ function naviBuildCard(loc, lang) {
 
   article.innerHTML = `
     <button class="loc-row" type="button" aria-expanded="false" aria-controls="expand-${loc.id}">
-      <div class="loc-thumb" aria-hidden="true">${initials}</div>
+      <div class="loc-thumb" aria-hidden="true">${thumbContent}</div>
       <div class="loc-body">
         <h3 class="loc-name">
           <span>${name}</span>
@@ -86,12 +89,24 @@ function naviBuildCard(loc, lang) {
          rel="noopener noreferrer">
         Get Directions in Google Maps &rarr;
       </a>
+      <button type="button" class="loc-ask-link" data-ask-id="${loc.id}">
+        Have a question about this place? Ask a Sarajevan
+      </button>
     </div>
   `;
 
   article.querySelector('.loc-row').addEventListener('click', () => {
     toggleCard(article, loc);
   });
+
+  // The Ask link should not toggle the card, so stop propagation.
+  const askBtn = article.querySelector('.loc-ask-link');
+  if (askBtn) {
+    askBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (typeof openAskModal === 'function') openAskModal(loc);
+    });
+  }
 
   return article;
 }
@@ -200,18 +215,45 @@ function focusCard(id) {
 // Module state
 let naviLocations = [];
 
-function renderList(locations, lang) {
+function naviBuildRouteHeader(route) {
+  const div = document.createElement('div');
+  div.className = 'route-header';
+  div.innerHTML = `
+    <div class="route-header-body">
+      <div class="route-header-label">Route</div>
+      <h2 class="route-header-name">${naviEscape(route.name)}</h2>
+      <p class="route-header-desc">${naviEscape(route.description)}</p>
+      <div class="route-header-meta">${naviEscape(route.duration_label)} \u00B7 ${route.locations.length} stops</div>
+    </div>
+    <button type="button" class="route-header-exit" aria-label="Exit route">Exit \u00D7</button>
+  `;
+  div.querySelector('.route-header-exit').addEventListener('click', () => {
+    if (typeof exitRoute === 'function') exitRoute();
+  });
+  return div;
+}
+
+/* renderList(locations, lang, options?)
+   options.route — when present, the list is rendered as a numbered route:
+                   route header on top, cards get step badges (1, 2, 3...). */
+function renderList(locations, lang, options) {
   const container = document.getElementById(LIST_CONTAINER_ID);
   if (!container) return;
   naviLocations = locations || [];
   const activeLang = lang || 'en';
+  const opts = options || {};
   container.innerHTML = '';
+
+  if (opts.route) {
+    container.appendChild(naviBuildRouteHeader(opts.route));
+  }
 
   if (naviLocations.length === 0) {
     container.appendChild(naviBuildEmptyState());
   } else {
-    naviLocations.forEach(loc => {
-      container.appendChild(naviBuildCard(loc, activeLang));
+    naviLocations.forEach((loc, i) => {
+      const step = opts.route ? (i + 1) : undefined;
+      container.appendChild(naviBuildCard(loc, activeLang, step));
     });
   }
 

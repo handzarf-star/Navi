@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="css/map.css">
   <link rel="stylesheet" href="css/categories.css">
   <link rel="stylesheet" href="css/card.css">
+  <link rel="stylesheet" href="css/ask.css">
+  <link rel="stylesheet" href="css/right-now.css">
 </head>
 <body>
   <header id="topbar" role="banner">
@@ -36,8 +38,43 @@
     </nav>
   </header>
   <div id="map" role="application" aria-label="Map of Sarajevo"></div>
+  <div id="right-now" class="right-now" hidden></div>
   <nav id="categories" role="tablist" aria-label="Filter places by category"></nav>
   <section id="list" aria-label="Places to visit"></section>
+
+  <!-- Ask a Sarajevan modal -->
+  <div id="ask-overlay" class="ask-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="ask-title">
+    <div id="ask-panel" class="ask-panel">
+      <div class="ask-header">
+        <div>
+          <h2 id="ask-title" class="ask-title">Ask a Sarajevan</h2>
+          <p class="ask-subtitle">Right now that's Faris, the founder. Replies usually within a few hours, sent to your email.</p>
+        </div>
+        <button type="button" class="ask-close" data-ask-close aria-label="Close">&times;</button>
+      </div>
+      <div id="ask-place" class="ask-place" hidden></div>
+      <form id="ask-form" novalidate>
+        <div class="ask-field">
+          <label for="ask-question">Your question</label>
+          <textarea id="ask-question" required maxlength="1000"
+                    placeholder="Is it open Saturday? Can I bring my dog? Should I tip?"></textarea>
+        </div>
+        <div class="ask-field">
+          <label for="ask-name">Your first name</label>
+          <input type="text" id="ask-name" required maxlength="60" autocomplete="given-name">
+        </div>
+        <div class="ask-field">
+          <label for="ask-email">Email (where we'll reply)</label>
+          <input type="email" id="ask-email" required autocomplete="email">
+        </div>
+        <div class="ask-actions">
+          <button type="button" class="ask-btn ask-btn--ghost" data-ask-close>Cancel</button>
+          <button type="submit" id="ask-submit" class="ask-btn ask-btn--primary">Ask</button>
+        </div>
+      </form>
+      <div id="ask-state" hidden></div>
+    </div>
+  </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
@@ -47,6 +84,8 @@
   <script src="js/i18n.js" defer></script>
   <script src="js/card.js" defer></script>
   <script src="js/categories.js" defer></script>
+  <script src="js/ask.js" defer></script>
+  <script src="js/right-now.js" defer></script>
   <script src="js/app.js" defer></script>
 </body>
 </html>
